@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/variables.css" />
+    <link rel="stylesheet" href="./assets/css/elements.css" />
+    <link rel="stylesheet" href="./assets/css/classes.css" />
+    <link rel="stylesheet" href="./assets/css/menu.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Logo</title>
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="Close Menu"/>
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked=false">
+                <a href="#home">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked=false">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Welcome to the web, sunny side up</h2>
+                <p>Millions of people rely on Pocket to save and discover the best articles, stories and videos on the
+                    web.
+                    As part of the Firefox family, Pocket has the same dedication to privacy.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg" alt="Lodo Javascript, Html e CSS" />
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>The 3 Best Tech Jobs</h2>
+            <p>While specific job outlook and new job numbers are not available from the BLS, the Harvard Business
+                Review (HBR) calls data scientists “the sexiest job of the 21st century." There is a high demand for
+                individuals who can evaluate data to help companies make business decisions; however, there is a
+                relatively low supply of qualified candidates.
+            </p>
+            <p>
+                By far, the largest number of job openings on the list is for software developers. This growth is fueled
+                by the demand for mobile apps and other products that are driven by technology. While some software
+                developers design applications, systems software developers design operating systems and interfaces. A
+                bachelor’s degree in computer science, software engineering, or mathematics is usually a requirement.
+            </p>
+            <p>
+                More than one billion records were breached in 2014, according to Gemalto, an international security
+                company. These breaches illustrate the urgent need for information security analysts. A bachelor’s
+                degree in computer science or programming is the typical requirement, although some employers prefer an
+                MBA in information systems.
+            </p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">My Section</h2>
+            <p class="grid-description">A short description</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptates praesentium molestias
+                        voluptatibus soluta quidem, porro nam saepe quod cum cupiditate ipsam ducimus quo esse, modi
+                        error
+                        unde
+                        veniam tempore?</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, perspiciatis corporis sint at
+                        harum
+                        eligendi adipisci libero provident? Optio saepe ut illum nemo, excepturi praesentium maxime
+                        perspiciatis? Ipsam, minus at!</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, perspiciatis corporis sint at
+                        harum
+                        eligendi adipisci libero provident? Optio saepe ut illum nemo, excepturi praesentium maxime
+                        perspiciatis? Ipsam, minus at!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section white-bg">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">A short description</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="Random Image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="Random Image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="Random Image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="Random Image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="Random Image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="Random Image from unsplash" />
+                </div>
+            </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>pricing</h2>
+            <p>While specific job outlook and new job numbers are not available from the BLS, the Harvard Business
+                Review (HBR) calls data scientists “the sexiest job of the 21st century." There is a high demand for
+                individuals who can evaluate data to help companies make business decisions; however, there is a
+                relatively low supply of qualified candidates.
+            </p>
+
+            <table>
+                <caption>Princing Table</caption>
+                <thead>
+                    <tr>
+                        <th>Product 1</th>
+                        <th>Product 2</th>
+                        <th>Product 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                    </tr>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                    </tr>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Testando</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Welcome to the web, sunny side up</h2>
+                <p>Millions of people rely on Pocket to save and discover the best articles, stories and videos on the
+                    web.
+                    As part of the Firefox family, Pocket has the same dedication to privacy.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg" alt="Lodo Javascript, Html e CSS" />
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="last-name">last-name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                    </div>
+    
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+    
+                    <div class="form-group full-width">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" claSS="footer white-bg">
+        <p>Feito por Felipe Dos Anjos</p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+
+</body>
+
+</html>
